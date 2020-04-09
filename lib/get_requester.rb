@@ -6,7 +6,8 @@ class GetRequester
 
   #Initialize with a string URL
   def initialize(url)
-    @URL = "https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json"
+    #@URL = "https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json"
+    @url = url
   end
 
   #get_response_body method that sends GET request to the URL
