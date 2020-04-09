@@ -13,7 +13,7 @@ class GetRequester
   #get_response_body method that sends GET request to the URL
   # -> Return the body of the response
   def get_response_body
-    uri = URI.parse(self.url)
+    uri = URI.parse(@url)
     response = Net::HTTP.get_response(uri)
     response.body
   end
