@@ -20,6 +20,6 @@ class GetRequester
   #parse_json method that uses get_response_body method to send a request
   # Return Ruby Hash of data converted
   def parse_json
-    people = JSON.parse(self.get_response_body
+    people = JSON.parse(self.get_response_body)
   end
 end
