@@ -6,7 +6,7 @@ class GetRequester
 
   #Initialize with a string URL
   def initialize
-    
+
   end
 
   #get_response_body method that sends GET request to the URL
